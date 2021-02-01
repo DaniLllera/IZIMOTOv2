@@ -33,25 +33,10 @@ public class TestTemasFragment extends Fragment {
         navController = Navigation.findNavController(view);
 
 
-        binding.senales.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment);
-            }
-        });
+        binding.senales.setOnClickListener(view13 -> navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment));
 
-        binding.senales2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment);
-            }
-        });
+        binding.senales2.setOnClickListener(view12 -> navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment));
 
-        binding.senales3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment);
-            }
-        });
+        binding.senales3.setOnClickListener(view1 -> navController.navigate(R.id.action_testTemasFragment_to_testSenalizacionFragment));
     }
 }

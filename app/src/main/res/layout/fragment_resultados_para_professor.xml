@@ -33,17 +33,41 @@
                 app:layout_constraintVertical_bias="1.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Enviar un correo a un alumno
+Para avisar que esta preparado para el examen"
+                android:backgroundTint="#0a00a8"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Jose    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView7"
@@ -59,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="56dp"
-                android:text="1 fallo"
+                android:text="Media de fallos 1"
                 android:textSize="20dp"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -83,13 +107,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#aa0006">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Maria    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView72"
@@ -105,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="52dp"
-                android:text="7 fallos"
+                android:text="Media de fallos 10"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -130,13 +154,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#aa0006">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Josefa    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView722"
@@ -152,7 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="52dp"
-                android:text="9 fallos"
+                android:text="Media de fallos 9"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -177,13 +201,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#aa0006">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Nuria    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView721"
@@ -199,7 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="2 fallos"
+                android:text="Media de fallos 19"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -212,7 +236,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="32dp"
-                android:src="@drawable/done"
+                android:src="@drawable/suspenso"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -224,13 +248,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Marta     "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView720"
@@ -246,7 +270,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="3 fallos"
+                android:text="Meida de fallos 2"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -271,13 +295,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Daniel    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView7202"
@@ -293,7 +317,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="3 fallos"
+                android:text="Media de fallos 0"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -318,13 +342,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Josepe     "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView7208"
@@ -340,7 +364,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="56dp"
-                android:text="6 fallos"
+                android:text="Media fallos 3"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -353,7 +377,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="36dp"
-                android:src="@drawable/suspenso"
+                android:src="@drawable/done"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -365,13 +389,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Zape    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView7204"
@@ -387,7 +411,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="3 fallos"
+                android:text="Media de fallos 2"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -412,13 +436,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#aa0006">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultado Test de Señalización"
+                android:text="Malloni     "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView72012"
@@ -434,7 +458,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="0 Fallos"
+                android:text="Media de fallos 4"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -447,7 +471,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="32dp"
-                android:src="@drawable/done"
+                android:src="@drawable/suspenso"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -459,13 +483,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultados en el test con Tiempo     "
+                android:text="Zipi    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView1720"
@@ -481,7 +505,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="1 Fallos"
+                android:text="Media de fallos 0 "
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -506,13 +530,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#aa0006">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultados en el test con Tiempo     "
+                android:text="David     "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView9720"
@@ -528,7 +552,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="5 Fallos"
+                android:text="Media de fallos 13"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -553,13 +577,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#2207BA">
+            android:background="#006600">
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Resultados en el test con Tiempo     "
+                android:text="Jaume    "
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView3720"
@@ -575,7 +599,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="44dp"
-                android:text="3 Fallos"
+                android:text="Media de fallos 1 "
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"

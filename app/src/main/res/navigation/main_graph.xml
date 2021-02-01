@@ -196,6 +196,12 @@
         <action
             android:id="@+id/action_paginaPrincipalProfessorFragment_to_habilitarFechaExamenFragment"
             app:destination="@id/habilitarFechaExamenFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_splashScreamFragment"
+            app:destination="@id/splashScreamFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_resultadosParaProfessorFragment"
+            app:destination="@id/resultadosParaProfessorFragment" />
     </fragment>
     <dialog
         android:id="@+id/confirmarFechaFragment"
@@ -223,11 +229,29 @@
     <fragment
         android:id="@+id/habilitarFechaExamenFragment"
         android:name="com.example.proyectom07_izimoto.HabilitarFechaExamenFragment"
-        android:label="fragment_habilitar_fecha_examen"
+        android:label="Habilitar Fecha Examen"
         tools:layout="@layout/fragment_habilitar_fecha_examen" >
         <action
             android:id="@+id/action_habilitarFechaExamenFragment_to_confirmarFechaFragment"
             app:destination="@id/confirmarFechaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosParaProfessorFragment"
+        android:name="com.example.proyectom07_izimoto.ResultadosParaProfessorFragment"
+        android:label="Resultados de alumnos"
+        tools:layout="@layout/fragment_resultados_para_professor" >
+        <action
+            android:id="@+id/action_resultadosParaProfessorFragment_to_enviarCorreoFragment"
+            app:destination="@id/enviarCorreoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enviarCorreoFragment"
+        android:name="com.example.proyectom07_izimoto.EnviarCorreoFragment"
+        android:label="Envia un correo a tus Alumnos"
+        tools:layout="@layout/fragment_enviar_correo" >
+        <action
+            android:id="@+id/action_enviarCorreoFragment_to_paginaPrincipalProfessorFragment"
+            app:destination="@id/paginaPrincipalProfessorFragment" />
     </fragment>
 
 </navigation>

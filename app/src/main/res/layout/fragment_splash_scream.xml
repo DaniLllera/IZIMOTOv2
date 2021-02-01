@@ -29,17 +29,13 @@
         app:layout_constraintTop_toBottomOf="@+id/ejercicio"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/ejercicio3"
-        android:layout_width="116dp"
-        android:layout_height="132dp"
-        android:background="#1F347F"
-        android:src="@drawable/gif"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ejercicio2"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/ejercicio2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

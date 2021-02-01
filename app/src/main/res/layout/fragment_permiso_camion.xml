@@ -104,7 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#264ECA"
-            android:text="Test Oficiles con Tiempo"
+            android:text="Test Oficiales por Tiempo"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp" />

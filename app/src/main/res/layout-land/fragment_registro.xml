@@ -28,6 +28,9 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
+            android:paddingLeft="10dp"
+            android:textColorHint="#80E7DCEF"
+
             android:id="@+id/usuario"
             android:layout_width="524dp"
             android:layout_height="49dp"
@@ -43,6 +46,9 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
+            android:paddingLeft="10dp"
+            android:textColorHint="#80E7DCEF"
+
             android:id="@+id/password"
             android:layout_width="524dp"
             android:layout_height="49dp"
@@ -59,8 +65,10 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextmail"
+            android:textColorHint="#80E7DCEF"
 
+            android:id="@+id/editTextmail"
+            android:paddingLeft="10dp"
             android:layout_width="524dp"
             android:layout_height="49dp"
             android:layout_marginTop="16dp"

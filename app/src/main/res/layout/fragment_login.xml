@@ -20,9 +20,11 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:paddingLeft="10dp"
         android:id="@+id/usuario"
         android:layout_width="match_parent"
         android:layout_height="49dp"
+        android:textAlignment="gravity"
         android:background="@drawable/style"
         android:drawableStart="@drawable/ic_email"
         android:hint="Usuario"
@@ -35,6 +37,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:paddingLeft="10dp"
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="49dp"
@@ -85,7 +88,7 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eres profe?"
+        android:text="Eres Profe"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"

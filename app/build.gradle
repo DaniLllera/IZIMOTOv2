@@ -58,7 +58,12 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'com.github.jinatonic.confetti:confetti:1.1.2'
     implementation 'com.github.florent37:expansionpanel:1.2.4'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.1'
 
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
 
 }
 repositories {

@@ -1,13 +1,13 @@
 package com.example.proyectom07_izimoto;
 
 public class Usuarios {
-    String nombre;
-    String anio;
-    int notamedia;
+    String titulo;
+    String anyo;
+    int portada;
 
-    public Usuarios(String nombre, String anio, int notamedia) {
-        this.nombre = nombre;
-        this.anio = anio;
-        this.notamedia = notamedia;
+    public Usuarios(String titulo, String anyo, int portada) {
+        this.titulo = titulo;
+        this.anyo = anyo;
+        this.portada = portada;
     }
 }

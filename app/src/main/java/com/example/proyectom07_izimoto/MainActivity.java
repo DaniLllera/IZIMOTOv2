@@ -63,13 +63,10 @@ public class MainActivity extends AppCompatActivity {
                 }else if( destination.getId()==R.id.paginaPrincipalProfessorFragment){
                     binding.toolbar.setVisibility(View.GONE);
 
-                }else if( destination.getId()==R.id.administrarUsuariosFragment){
-                    binding.toolbar.setVisibility(View.GONE);
-
                 }else if( destination.getId()==R.id.confirmarFechaFragment){
                     binding.toolbar.setVisibility(View.GONE);
 
-                }else if( destination.getId()==R.id.habilitarFechaExamenFragment){
+                }else if( destination.getId()==R.id.registroProfeFragment){
                     binding.toolbar.setVisibility(View.GONE);
 
                 }

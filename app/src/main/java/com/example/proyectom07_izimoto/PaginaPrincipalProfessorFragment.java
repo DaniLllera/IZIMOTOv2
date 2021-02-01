@@ -43,5 +43,18 @@ public class PaginaPrincipalProfessorFragment extends Fragment {
                 navController.navigate(R.id.action_paginaPrincipalProfessorFragment_to_habilitarFechaExamenFragment);
             }
         });
+
+        binding.imageView18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_paginaPrincipalProfessorFragment_to_splashScreamFragment);
+            }
+        });
+        binding.imageView16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_paginaPrincipalProfessorFragment_to_resultadosParaProfessorFragment);
+            }
+        });
     }
 }

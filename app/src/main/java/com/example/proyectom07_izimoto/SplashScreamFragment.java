@@ -52,7 +52,7 @@ public class SplashScreamFragment extends Fragment {
             public void run() {
                 try {
                     // simular la carga de recursos
-                    Thread.sleep(1000);
+                    Thread.sleep(3000);
                     finishedLoading.postValue(true);
                 } catch (InterruptedException e) {
                     e.printStackTrace();

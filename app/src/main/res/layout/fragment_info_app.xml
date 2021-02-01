@@ -30,7 +30,7 @@
 
                 <!-- HEADER -->
                 <TextView
-                    android:text="Información General"
+                    android:text="@string/informaci_n_general"
                     style="@style/tituloPanel"/>
                 <!-- HEADER INDICATOR -->
 
@@ -59,7 +59,7 @@
 
                 <!-- HEADER2 -->
                 <TextView
-                    android:text="Público Objetivo"
+                    android:text="@string/p_blico_objetivo"
                     style="@style/tituloPanel"/>
                 <!-- HEADER INDICATOR2 -->
 
@@ -89,7 +89,7 @@
 
                 <!-- HEADER3 -->
                 <TextView
-                    android:text="Politica de Privacidad"
+                    android:text="@string/politica_de_privacidad"
                     style="@style/tituloPanel"/>
                 <!-- HEADER INDICATOR3 -->
 

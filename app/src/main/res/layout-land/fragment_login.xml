@@ -26,6 +26,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
+            android:paddingLeft="10dp"
             android:id="@+id/usuario"
             android:layout_width="524dp"
             android:layout_height="49dp"
@@ -43,6 +44,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
+            android:paddingLeft="10dp"
             android:id="@+id/password"
             android:layout_width="524dp"
             android:layout_height="49dp"
@@ -95,7 +97,7 @@
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eres profe?"
+            android:text="Eres Profe?"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
